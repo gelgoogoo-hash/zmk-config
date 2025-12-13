@@ -14,7 +14,7 @@
             display-name = "default layer";
             bindings = <
                 &kp A &kp B
-                &kp C &kp D
+                &kp C &mo 1
             >;
         };
 
@@ -22,7 +22,7 @@
             display-name = "number layer";
             bindings = <
                 &kp N1 &kp N2
-                &kp N3 &kp N4
+                &kp N3 &none 
             >;
         };
     };
