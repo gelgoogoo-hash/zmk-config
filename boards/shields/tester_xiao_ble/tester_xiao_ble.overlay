@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
+#include <zmk/physical_layouts.h>
 #
 / {
     chosen {
@@ -25,6 +25,8 @@
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "XIAO Tester default";
+        transform = &default_transform;
+        kscan = &kscan0;
 
         // Map key positions to the XIAO pinout.
         keys  //                     w   h    x    y    rot   rx   ry
