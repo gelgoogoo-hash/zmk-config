@@ -17,5 +17,13 @@
                 &kp C &kp D
             >;
         };
+
+        num_layer {
+            display-name = "number layer";
+            bindings = <
+                &kp N1 &kp N2
+                &kp N3 &kp N4
+            >;
+        };
     };
 };
