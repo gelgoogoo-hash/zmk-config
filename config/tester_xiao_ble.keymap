@@ -20,7 +20,7 @@
             display-name = "number layer";
             bindings = <
                 &kp N1 &kp N2
-                $kp N3 &trans
+                $kp N3 &none
             >;
         };
 
@@ -28,7 +28,7 @@
             display-name = "cursor layer";
             bindings = <
                 &kp LEFT_ARROW &kp RIGHT_ARROW
-                &trans         &kp LGUI
+                &none          &kp LGUI
             >;
         };
     };
