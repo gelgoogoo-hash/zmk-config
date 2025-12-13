@@ -14,7 +14,7 @@
             display-name = "default layer";
             bindings = <
                 &kp A &kp B
-                &kp C &mo 1
+                &kp C &lt 1 D
             >;
         };
 
