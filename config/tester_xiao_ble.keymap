@@ -12,25 +12,26 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-                &kp A              &kp B
-                &lt CURSOR_LAYER C &lt NUM_LAYER D
-            >;
-        };
-        num_layer {
-            display-name = "number layer";
-            bindings = <
-                &kp N1 &kp N2
-                $kp N3 &none
+                &kp A &kp B
+                &kp C &kp D
             >;
         };
 
-        cursor_layer {
-            display-name = "cursor layer";
-            bindings = <
-                &kp LEFT_ARROW &kp RIGHT_ARROW
-                &none          &kp LGUI
-            >;
-        };
+#       num_layer {
+#           display-name = "number layer";
+#           bindings = <
+#               &kp N1 &kp N2
+#               $kp N3 &none
+#           >;
+#       };
+
+#      cursor_layer {
+#           display-name = "cursor layer";
+#           bindings = <
+#               &kp LEFT_ARROW &kp RIGHT_ARROW
+#               &none          &kp LGUI
+#           >;
+#       };
     };
 
 };
