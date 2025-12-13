@@ -1,0 +1,13 @@
+if SHIELD_TESTER_XIAO_BLE
+
+config ZMK_KEYBOARD_NAME
+    default "MZN ZMK Tester BLE"
+
+config ZMK_BLE
+    def_bool y
+
+config SETTINGS
+    def_bool y
+
+endif
+
