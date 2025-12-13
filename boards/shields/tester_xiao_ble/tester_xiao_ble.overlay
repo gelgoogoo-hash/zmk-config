@@ -25,7 +25,6 @@
         compatible = "zmk,physical-layout";
         display-name = "XIAO Tester default";
         transform = < &default_transform >;
-        kscan = &kscan0;
 
         // Map key positions to the XIAO pinout.
         keys  //                     w   h    x    y    rot   rx   ry
