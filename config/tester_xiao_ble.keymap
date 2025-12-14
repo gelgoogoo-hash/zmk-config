@@ -13,8 +13,8 @@
         default_layer {
             display-name = "default layer";
             bindings = <
-                &kp A &kp B
-                &kp C &lt 1 D
+                &kp A   &kp B
+                &lt 2 C &lt 1 D
             >;
         };
 
@@ -23,6 +23,14 @@
             bindings = <
                 &kp N1 &kp N2
                 &kp N3 &none 
+            >;
+        };
+
+        cursor_layer {
+            display-name = "cursor layer";
+            bindings = <
+                &kp LEFT &kp RIGHT
+                &none    &kp LGUI 
             >;
         };
     };
