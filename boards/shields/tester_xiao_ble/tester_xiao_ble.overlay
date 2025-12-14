@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "tester_xiao_ble-layout.dtsi"
+#include "tester_xiao_ble-layouts.dtsi"
 #
 / {
     chosen {
